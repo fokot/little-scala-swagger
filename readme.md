@@ -52,6 +52,7 @@ present and if there are no obsolete types (e.g. one not used in route directly 
           .desc("externalID", "id in external system")
           .desc("dateCreated", "In request ignored, used in response"),
         caseClass[LegalEntity]
+          // you can add documentation to generated field, it will fail if field does not exists
           .desc("dBNumber", "Dun & Bradstreet DUNS number")
           .desc("externalID", "id in external system")
           .desc("dateCreated", "In request ignored, used in response"),
